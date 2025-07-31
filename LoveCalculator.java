@@ -9,10 +9,10 @@ import java.util.Random;
                Random random = new Random();
       System.out.println("WELCOME TO THE MAGICAL LOVE CALCUALTOR AREA");
         
-      System.out.println("ENTER YOUR NAME : ");
+      System.out.print("ENTER YOUR NAME : ");
      String yourName = scanner.nextLine();
           
-        System.out.println("ENTER YOUR CRUSH NAME : ");
+        System.out.print("ENTER YOUR CRUSH NAME : ");
         String crushName = scanner.nextLine();
    
         int loveScore = 50 + random.nextInt(51);
